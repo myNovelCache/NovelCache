@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Chapter 2 | I Am a Real Magician</title>
+  <style>
+    body {
+      background-color: #1a1a1a;
+      color: #e0e0e0;
+      font-family: 'Segoe UI', sans-serif;
+      line-height: 1.7;
+      max-width: 800px;
+      margin: 60px auto;
+      padding: 20px;
+      font-size: 18px;
+    }
+
+    p {
+      margin-bottom: 1em;
+      text-align: justify;
+    }
+
+    .nav-buttons {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 40px;
+    }
+
+    button {
+      background-color: #333;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      font-size: 16px;
+    }
+
+    button:hover {
+      background-color: #555;
+    }
+
+    i {
+      color: #ccc;
+    }
+  </style>
+</head>
+<body>
+  <p>Where… am I?</p>
+
+  <p>My head feels hazy, but my consciousness is definitely there.</p>
+
+  <p>I was hit by a truck — I should’ve been dead.<br>
+  Maybe the human body is a lot sturdier than I gave it credit for.<br>
+  Or maybe this is the blessing of one of those black-magic items I ordered online.</p>
+
+  <p>I vaguely remember trying “Zombie Powder” or “Phoenix Fried Chicken.”</p>
+
+  <p>By the way, the Zombie Powder was sweet — I mixed it into my coffee.<br>
+  The Phoenix Fried Chicken tasted like rubber. I remember sharing that one with my senior, Yama-san.</p>
+
+  <p>It feels like a long time has passed since the accident… or maybe not.</p>
+
+  <p>Maybe I got off with only minor injuries.<br>
+  I recall being thrown onto the sidewalk and blacking out, but I’m not sure how badly I was hurt.</p>
+
+  <p>Still… I’m glad I’m alive.</p>
+
+  <p>Come to think of it, that girl — Ii-chan — was crying and holding me, wasn’t she?<br>
+  That means there’s still hope of convincing her to come back.<br>
+  The Black Magic Research Club shall never die!</p>
+
+  <p>With that pointless thought in mind, I open my eyes — and see an unfamiliar woman.</p>
+
+  <p>Definitely not Japanese. Her hair and skin were pale, almost translucent, and her eyes were red.<br>
+  Beautiful — fragile, almost ethereal.</p>
+
+  <p>Her face was very close to mine. I instinctively tried to pull my head back, but my neck wouldn’t move properly.<br>
+  When our eyes met, the woman smiled softly.</p>
+
+  <p><i>“――――――――”</i></p>
+
+  <p>What she said was in a language I had never heard before.</p>
+
+  <p>A man appeared beside her, leaning over to look at me.<br>
+  He, too, had white hair and red eyes.</p>
+
+  <p>Uh… excuse me, where exactly am I?</p>
+
+  <p><i>“Ah… ah… u-ah…”</i></p>
+
+  <p>I tried gesturing and making sounds, but real words wouldn’t come out.</p>
+
+  <p>No — it wasn’t just that.</p>
+
+  <p>I looked down at my own hands and froze.<br>
+  Tiny hands. Like those of a newborn baby.</p>
+
+  <p>And, just like the two people in front of me, my skin was pale — almost colorless.</p>
+
+  <p>It hit me instinctively.</p>
+
+  <p><b>No way… I’ve been reborn, haven’t I?</b></p>
+
+  <p>Could these two beautiful, foreign-looking people actually be my parents in this new life?<br>
+  No… that can’t be possible.</p>
+
+  <p>I looked down again — I was being cradled in the woman’s arms.</p>
+
+  <p><i>“Ah, ahh! A-aaaaaaaahhhhhhhh!!”</i></p>
+
+  <p>I burst out crying.</p>
+
+  <p>The woman gently rocked me in her arms, trying to soothe me.<br>
+  No, that’s not what I meant!</p>
+
+  <p>The man and woman looked down at me with soft, loving expressions.</p>
+
+  <p>They were unmistakably the eyes of parents gazing at their own child.</p>
+
+  <div class="nav-buttons">
+    <button id="prev-btn">← Previous</button>
+    <button id="next-btn">Next →</button>
+  </div>
+
+  <script>
+    const currentUrl = window.location.pathname;
+    const match = currentUrl.match(/(\d+)$/);
+    const currentChapter = match ? parseInt(match[1]) : 2;
+    const baseUrl = currentUrl.replace(/-\d+$/, '');
+
+    function goToChapter(chapterNum) {
+      window.location.href = `${baseUrl}-${chapterNum}`;
+    }
+
+    document.getElementById('next-btn').onclick = () => goToChapter(currentChapter + 1);
+    document.getElementById('prev-btn').onclick = () => {
+      if (currentChapter > 1) goToChapter(currentChapter - 1);
+    };
+
+    document.addEv
