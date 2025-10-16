@@ -2,20 +2,23 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Chapter 1 - Prologue</title>
+  <title>Chapter 1 | I Am a Real Magician</title>
   <style>
     body {
       background-color: #1a1a1a;
       color: #e0e0e0;
       font-family: 'Segoe UI', sans-serif;
-      line-height: 1.6;
+      line-height: 1.7;
       max-width: 800px;
       margin: 60px auto;
       padding: 20px;
       font-size: 18px;
     }
 
-    p { margin-bottom: 1em; }
+    p {
+      margin-bottom: 1em;
+      text-align: justify;
+    }
 
     .nav-buttons {
       display: flex;
@@ -39,12 +42,18 @@
     }
 
     i {
-      font-style: italic;
       color: #ccc;
     }
   </style>
 </head>
 <body>
+  <p>I raise my head and rub my eyes.</p>
+  <p>Drool had stuck to my cheek — looks like I’d fallen asleep face-down on the desk again.</p>
+  <p>So I’d blacked out in the middle of reading another book.</p>
+  <p>It’s not a healthy habit, but there’s no one around to scold me for it.<br>
+  My mother was already gone by the time I was old enough to remember anything, and my father was stabbed to death when I was little.<br>
+  The grandfather who took me in afterward passed away from old age last year, so now I live alone.</p>
+
   <p>My father had been a somewhat well-known magician in his line of work — a quirky man who loved to travel.<br>
   He’d wander overseas without warning, leaving his kid behind, and try to make it up to me with strange souvenirs that made no sense.</p>
 
@@ -53,13 +62,94 @@
   But one day, an overly excited spectator pulled out their own knife and slashed him for real.<br>
   He never regained consciousness — gone just like that.</p>
 
+  <p>As a kid, I really believed he was a real magician, so I thought he’d come back one day from somewhere far away.<br>
+  When I asked Grandpa, “When is Dad coming home?” he would just narrow his eyes silently and pat my head.<br>
+  Now that I think about it, he must’ve been pitying me.</p>
+
+  <p>My gaze drifts to the book I’d been reading.</p>
+
+  <p><i>“The Complete Compendium of Medieval Black Magic.”</i></p>
+
+  <p>As much as I hate to admit it, my interest in these shady topics definitely comes from all those “souvenirs” Dad used to bring me.</p>
+
+  <p>This suspicious tome isn’t the only thing — my house is full of sketchy black-magic kits.<br>
+  I know there’s no such thing as magic, but part of me still wishes there were.<br>
+  Seventeen years old now, and that childish dream has only earned me the title of chūnibyō — a cringey wannabe “dark mage.”</p>
+
+  <p>No one at school talks to me. Most just stare like I’m some rare bug.</p>
+
+  <p>The only people I can really call acquaintances are the members of the Black Magic Research Club — though since our senior Yama-san retired to focus on exams, it’s just me and my junior, Ii-chan, left.<br>
+  Which means, sadly enough, Ii-chan is my only conversation partner.</p>
+
+  <p>And according to school policy, if no new members join next year, our little “evil” club will be disbanded. Evil, it seems, always perishes.</p>
+
+  <p>This club is my only place of belonging.<br>
+  I have to protect it at all costs.</p>
+
+  <p>It’s about time I held a meeting with Ii-chan to plan how we’ll recruit new members.<br>
+  If even one of the black-magic kits I bought online turned out to be the real deal, I bet people would come running to join us.<br>
+  Not that I actually believe that’ll ever happen.</p>
+
+  <p>The incident happened after school.</p>
+
+  <p><i>“…I think I’m gonna quit this club.”</i></p>
+
+  <p>After classes ended, my trusted junior slammed me with that statement.</p>
+
+  <p>Looking back, it was a miracle someone as kind, pretty, and sensible as Ii-chan had stuck around this weird club for so long.</p>
+
+  <p>But knowing that didn’t make it any easier to accept.</p>
+
+  <p>I wanted at least to convince her to take a break instead of quitting — or, if nothing else, to keep her name on the roster for appearances’ sake.<br>
+  But she wouldn’t hear any of it.</p>
+
+  <p>By the time I’d recovered from the shock and tried to talk things through, she was already walking out of the clubroom.</p>
+
+  <p>I managed to catch up near the school gate, but even then, the conversation went nowhere.</p>
+
+  <p>In the heavy silence, Ii-chan suddenly turned away and started walking faster — right into the crosswalk.</p>
+
+  <p>The light was red.<br>
+  She probably hadn’t noticed it change, distracted by me.</p>
+
+  <p>A large truck was coming through the intersection.</p>
+
+  <p>Before I knew it, I was running.</p>
+
+  <p>A crushing impact hit my body, and everything went dark.</p>
+
+  <p>Hot. My whole body felt like it was burning.</p>
+
+  <p>I forced my eyes open, but my vision was fuzzy — no, it felt like my brain itself was failing.</p>
+
+  <p>Voices rose all around me. The noise was annoying, somehow distant.</p>
+
+  <p>Someone was clinging to me.</p>
+
+  <p><i>“N-No! No! I’m sorry, I’m so sorry! It’s all my fault—!”</i></p>
+
+  <p>Even through the haze, I recognized my junior’s voice.</p>
+
+  <p>Good. She’s alive.</p>
+
+  <p>It wouldn’t have looked cool if we’d both died.</p>
+
+  <p>Better the outcast dies than the popular one — fewer people to mourn me anyway.</p>
+
+  <p>Lucky, in a twisted way. I’ve got no family left. Hardly any friends.</p>
+
+  <p>My only regrets are that I never finished researching alchemy history… and that the “dragon’s claw” I ordered from overseas was supposed to arrive today. Pathetic, really.</p>
+
+  <p>I didn’t even have a dream for the future.</p>
+
+  <p>Those were my last thoughts before everything went black.</p>
+
   <div class="nav-buttons">
     <button id="prev-btn">← Previous</button>
     <button id="next-btn">Next →</button>
   </div>
 
   <script>
-    // Extract current chapter number from URL (e.g., /novel-name-3)
     const currentUrl = window.location.pathname;
     const match = currentUrl.match(/(\d+)$/);
     const currentChapter = match ? parseInt(match[1]) : 1;
@@ -74,7 +164,6 @@
       if (currentChapter > 1) goToChapter(currentChapter - 1);
     };
 
-    // Arrow key navigation
     document.addEventListener('keydown', (event) => {
       if (event.key === 'ArrowRight') goToChapter(currentChapter + 1);
       if (event.key === 'ArrowLeft' && currentChapter > 1) goToChapter(currentChapter - 1);
