@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Chapter 6 | Age Six Part 2</title>
+  <style>
+    body {
+      background-color: #1a1a1a;
+      color: #e0e0e0;
+      font-family: 'Segoe UI', sans-serif;
+      line-height: 1.7;
+      max-width: 800px;
+      margin: 60px auto;
+      padding: 20px;
+      font-size: 18px;
+    }
+    p { margin-bottom: 1em; text-align: justify; }
+    .nav-buttons { display: flex; justify-content: space-between; margin-top: 40px; }
+    button {
+      background-color: #333; color: #fff; border: none;
+      padding: 10px 20px; border-radius: 5px; cursor: pointer;
+      transition: background-color 0.3s; font-size: 16px;
+    }
+    button:hover { background-color: #555; }
+    i { color: #ccc; }
+  </style>
+</head>
+<body>
+  <p><b>Age Six — Part 2</b></p>
+
+  <p>Mother taught me how to read and write, so I can already handle basic literacy.</p>
+
+  <p>Well, “taught” might be too generous a word. She just wrote out a list of characters on paper, read them aloud to me a few times, and left me with that.
+  After that, I learned almost everything by myself by comparing that chart with books.</p>
+
+  <p>Mother was enthusiastic about teaching, but perhaps because she saw me as a six-year-old, her pace was painfully slow.
+  In the Maren tribe, it seems learning to read and write by the age of ten is considered sufficient.
+  She probably thought I was rushing it.</p>
+
+  <p>Even when I said, “I already know this,” she would repeat the same lesson, or go backward after barely making progress.
+  So after the first day, I pretended to get bored and said, “Maybe that’s enough for now,” and secretly continued studying on my own.</p>
+
+  <p>Now, I was sitting on an Otem in the yard, reading a beginner’s book about magic.
+  It was filled with illustrations — clearly made for children.
+  That way, if someone saw me, I could claim I was just looking at the pictures, not reading.</p>
+
+  <p>My parents still didn’t know I could actually read fluently.
+  If Mother found out that I’d mastered it alone after quitting her lessons, she’d probably feel a bit conflicted as a mother.
+  And since Father had just told me I wasn’t acting like a child, it was better to keep it secret.
+  Later, I could just say I’d learned simple letters from looking at picture books.</p>
+
+  <p><i>“Brother, can you read letters?”</i></p>
+
+  <p>Giselle craned her neck to peek at the book beside me.</p>
+
+  <p><i>“Yeah — but don’t tell Father or Mother, all right?”</i></p>
+
+  <p><i>“Amazing! You’re amazing! Oh, can you read me The Tale of the Little People’s Forest?”</i></p>
+
+  <p>That was a collection of fairy tales — the one Mother often read aloud to us before bed.</p>
+
+  <p><i>“I don’t want to get caught reading, remember? Why don’t you have Mother read it to you?”</i></p>
+
+  <p><i>“B-but… I want you to read it to me, brother. Is that… not allowed?”</i></p>
+
+  <p>Persistent, huh.</p>
+
+  <p><i>“All right, then. But let’s make it our secret — just between you and me.”</i></p>
+
+  <p><i>“Just between… us?”</i></p>
+
+  <p><i>“That’s right. You don’t mind, do you?”</i></p>
+
+  <p><i>“I—I don’t mind! I understand! It’ll be our special secret, brother!”</i></p>
+
+  <p>Good. Perfectly handled.
+  Giselle was happy, and everyone else remained none the wiser.</p>
+
+  <p>The main reason I wanted to learn to read was so I could begin serious magical study.
+  Otem carving is the foundation, but after years of it, I was ready to move on.
+  Father still said I was too young to learn proper spells, but I wanted to get ahead by studying on my own.</p>
+
+  <p>According to the book, the most basic forms of magic were clairvoyance and fortune-telling using divination cards.</p>
+
+  <p>These divination cards were like a Maren-exclusive version of tarot.
+  There were red and black suits, thirteen cards each, numbered from 1 to 13, plus a colorless “zero” card — twenty-seven in total.
+  Each card bore an illustration — a thief, a hunter, a magician, and other mysterious figures.
+  Aside from color, cards of the same number shared the same image.</p>
+
+  <p>Their use resembled tarot, but physically they were more like playing cards.
+  In fact, Giselle and I once used them to play Old Maid.</p>
+
+  <p>…We got scolded harshly by Father afterward.
+  Apparently, they weren’t meant for games.</p>
+
+  <p>If he wants me to act like a child, he could at least overlook something like that.
+  Instead, we had to do that usual gesture — tracing a cross in the air and praying for forgiveness.</p>
+
+  <p>If I tried bringing out the cards again, Father would definitely say something.
+  Maybe I should have Giselle fetch them for me.</p>
+
+  <p>When we played Old Maid, Father had yelled, <i>“You were the one who put her up to it, weren’t you?!”</i> and scolded only me.
+  He was right, of course, so I didn’t complain — but the man just couldn’t bring himself to punish Giselle.
+  That’s why it’s better if she’s the one to get them.</p>
+
+  <p><i>“Giselle, do you remember the divination cards?”</i></p>
+
+  <p><i>“Yes, I do. The ones we used for Old Maid…”</i></p>
+
+  <p>So in her mind, they were permanently branded as Old Maid cards.
+  Well, fine. It’s not like I’m in a position to correct her.
+  If only “divination card Old Maid” would catch on enough that Father stopped getting mad about it.</p>
+
+  <p><i>“Right. I need you to go upstairs and bring me those cards. I’ll distract Mother downstairs.”</i></p>
+
+  <p><i>“Yes! Leave it to me, brother!”</i></p>
+
+  <p>She agreed without hesitation.
+  Good girl — a truly dependable little sister.</p>
+
+  <p>Still, if I’m going to use the divination cards, I’d better do it somewhere Father can’t see.
+  Once I have Mother’s permission, I’ll head to a quiet spot away from the settlement.</p>
+
+  <div class="nav-buttons">
+    <button id="prev-btn">← Previous</button>
+    <button id="next-btn">Next →</button>
+  </div>
+
+  <script>
+    const currentUrl = window.location.pathname;
+    const match = currentUrl.match(/(\d+)$/);
+    const currentChapter = match ? parseInt(match[1]) : 6;
+    const baseUrl = currentUrl.replace(/-\d+$/, '');
+
+    function goToChapter(chapterNum) {
+      window.location.href = `${baseUrl}-${chapterNum}`;
+    }
+
+    document.getElementById('next-btn').onclick = () => goToChapter(currentChapter + 1);
+    document.getElementById('prev-btn').onclick = () => {
+      if (currentChapter > 1) goToChapter(currentChapter - 1);
+    };
+
+    document.addEventListener('keydown', (event) => {
+      if (event.key === 'ArrowRight') goToChapter(currentChapter + 1);
+      if (event.key === 'ArrowLeft' && currentChapter > 1) goToChapter(currentChapter - 1);
+    });
+  </script>
+</body>
+</html>
