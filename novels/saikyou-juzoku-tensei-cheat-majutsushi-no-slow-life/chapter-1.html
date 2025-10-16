@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Chapter 1 - Prologue</title>
+  <style>
+    body {
+      background-color: #1a1a1a;
+      color: #e0e0e0;
+      font-family: 'Segoe UI', sans-serif;
+      line-height: 1.6;
+      max-width: 800px;
+      margin: 60px auto;
+      padding: 20px;
+      font-size: 18px;
+    }
+
+    p { margin-bottom: 1em; }
+
+    .nav-buttons {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 40px;
+    }
+
+    button {
+      background-color: #333;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      font-size: 16px;
+    }
+
+    button:hover {
+      background-color: #555;
+    }
+
+    i {
+      font-style: italic;
+      color: #ccc;
+    }
+  </style>
+</head>
+<body>
+  <p>My father had been a somewhat well-known magician in his line of work — a quirky man who loved to travel.<br>
+  He’d wander overseas without warning, leaving his kid behind, and try to make it up to me with strange souvenirs that made no sense.</p>
+
+  <p>His catchphrase on stage was, <i>“I am a real magician!”</i><br>
+  Apparently, part of his act involved handing a knife to a planted audience member and letting them pretend to stab him.<br>
+  But one day, an overly excited spectator pulled out their own knife and slashed him for real.<br>
+  He never regained consciousness — gone just like that.</p>
+
+  <div class="nav-buttons">
+    <button id="prev-btn">← Previous</button>
+    <button id="next-btn">Next →</button>
+  </div>
+
+  <script>
+    // Extract current chapter number from URL (e.g., /novel-name-3)
+    const currentUrl = window.location.pathname;
+    const match = currentUrl.match(/(\d+)$/);
+    const currentChapter = match ? parseInt(match[1]) : 1;
+    const baseUrl = currentUrl.replace(/-\d+$/, '');
+
+    function goToChapter(chapterNum) {
+      window.location.href = `${baseUrl}-${chapterNum}`;
+    }
+
+    document.getElementById('next-btn').onclick = () => goToChapter(currentChapter + 1);
+    document.getElementById('prev-btn').onclick = () => {
+      if (currentChapter > 1) goToChapter(currentChapter - 1);
+    };
+
+    // Arrow key navigation
+    document.addEventListener('keydown', (event) => {
+      if (event.key === 'ArrowRight') goToChapter(currentChapter + 1);
+      if (event.key === 'ArrowLeft' && currentChapter > 1) goToChapter(currentChapter - 1);
+    });
+  </script>
+</body>
+</html>
