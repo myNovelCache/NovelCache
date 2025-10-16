@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Chapter 3 | Age Two</title>
+  <style>
+    body {
+      background-color: #1a1a1a;
+      color: #e0e0e0;
+      font-family: 'Segoe UI', sans-serif;
+      line-height: 1.7;
+      max-width: 800px;
+      margin: 60px auto;
+      padding: 20px;
+      font-size: 18px;
+    }
+
+    p {
+      margin-bottom: 1em;
+      text-align: justify;
+    }
+
+    .nav-buttons {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 40px;
+    }
+
+    button {
+      background-color: #333;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      font-size: 16px;
+    }
+
+    button:hover {
+      background-color: #555;
+    }
+
+    i {
+      color: #ccc;
+    }
+  </style>
+</head>
+<body>
+  <p><b>Age Two</b></p>
+
+  <p>It’s been two years since I was given my second life.</p>
+
+  <p>I can walk around a little now, though to reach the second floor I still need to climb a ladder.<br>
+  Since I’m rarely allowed outside, my whole world basically consists of the first floor of our house.</p>
+
+  <p>From what I’ve gathered over these past two years, I was reborn as the eldest son of the Berleck family, part of a race called the Maren.</p>
+
+  <p>My name is Abel — full name, Abel Berleck.</p>
+
+  <p>The white skin and red eyes are apparently common traits among the Maren people.<br>
+  I had them too.<br>
+  I had already guessed as much from looking at my parents, but even so, when I first saw myself in a mirror, I was speechless.</p>
+
+  <p>At first I was constantly panicking, but as time passed, I’ve come to accept my situation — at least somewhat.<br>
+  That said, in my previous life I only had one parent, and he was a carefree idiot of a magician, so living with both parents now still feels strange to me.</p>
+
+  <p>I’ve started learning the language here, but I still have no clue where on Earth this country is supposed to be.<br>
+  It’s a continent I’ve never even heard of.<br>
+  Makes me wish I’d studied geography more seriously back in my old life.</p>
+
+  <p>I once asked Father for a world map, but he just laughed and said, <i>“If such a thing existed, I’d want to see it myself.”</i></p>
+
+  <p>There’s nothing resembling electrical appliances in our home, either.<br>
+  It seems like this place isn’t very developed.<br>
+  I never thought there could still be somewhere like this in today’s world.<br>
+  I miss my smartphone… and TV.</p>
+
+  <p>Every morning, my parents face a decorated window in their bedroom, close their eyes, and say,</p>
+
+  <p><i>“We pray to the spirits of our Maren ancestors,”</i><br>
+  while tracing a cross in the air with their left hand.</p>
+
+  <p>They both do it with such solemn expressions that, the first time I saw it, I almost cried.</p>
+
+  <p>My new father often says, <i>“Abel, you must also offer your prayers,”</i> and tries to make me copy them.<br>
+  For now, I take advantage of being a toddler and pretend not to understand.<br>
+  But it’s only a matter of time before I’m expected to do it too.</p>
+
+  <p>Apparently, this prayer isn’t just for mornings — whenever you do something bad, you’re also supposed to trace a cross in the air with your left hand and say,</p>
+
+  <p><i>“Spirits of our Maren ancestors, forgive me.”</i></p>
+
+  <p>I don’t know the details, but supposedly the ancestral spirits will overlook most things after that.<br>
+  Seems our Maren ancestors are a forgiving bunch.</p>
+
+  <p>Then there’s the food.</p>
+
+  <p>That’s been the biggest challenge.<br>
+  Meals mostly consist of hard, black bread and something called “white soup,” which is like a thinned stew made from goat’s milk.</p>
+
+  <p>That much I can tolerate.<br>
+  What I can’t handle are the occasional pig heads or the drinks made from boiled snake blood that appear on the table.<br>
+  Apparently, they’re eaten during special ritual days.</p>
+
+  <p>The calendar system here is also strange — they use something called a day counter: a set of interlocking disks that you turn manually.<br>
+  Every few rotations, the count shifts to adjust for something like leap years.<br>
+  From the markings, I learned that there are twelve months in a year like Japan, but only 352 days.<br>
+  That’s when it finally hit me — this might not even be Earth.</p>
+
+  <p>Aside from the food, there’s something else I can’t get used to: the Otems.</p>
+
+  <p>An Otem is a wooden, cylindrical statue — sort of like a carved drum with a face, sometimes with hands or wings.<br>
+  They’re displayed everywhere, indoors and out.<br>
+  Painted with strange makeup, they’re downright creepy.<br>
+  What’s worse is that I have no idea what they’re for.<br>
+  I’ve even dreamed of them chasing me.</p>
+
+  <p>At first, I thought they must be religious symbols, but then I saw Mother using one as a stepping stool to reach a book on a high shelf.<br>
+  Still, afterward she traced a cross in the air and asked the ancestors for forgiveness, so maybe they are sacred after all.<br>
+  But if she’s going to ask forgiveness every time, maybe she shouldn’t be doing it in the first place.<br>
+  She’s the adult, not me.</p>
+
+  <p><i>“Is something wrong, Abel? You’ve been staring at the Otem for a while.”</i></p>
+
+  <p>Mother looked up from her chair, a book in her hand.<br>
+  Even knowing she’s my biological mother, I still get nervous meeting her gaze.<br>
+  How old is she, anyway? Probably not even thirty.</p>
+
+  <p><i>“Mother, what are the Otems for?”</i></p>
+
+  <p>I asked, gently touching one of them.</p>
+
+  <p><i>“Oh my, Abel, already interested in Otems? How promising!”</i></p>
+
+  <p>She smiled brightly.<br>
+  So, these people really are that fond of Otems, huh?</p>
+
+  <p><i>“Otems are things your father, Lord Zele, makes for his magic training,”</i> she explained.<br>
+  <i>“There are also some made for celebrations or decorations…”</i></p>
+
+  <p>Lord Zele — that’s Father.<br>
+  His full name is Zeleit, but I’ve heard neighbors call him Zele or Mr. Zele, so it’s a nickname.<br>
+  Still, I can’t help wondering why Mother uses an honorific when referring to him.<br>
+  Maybe it’s a cultural thing — a way of showing respect to one’s husband.<br>
+  But they seem affectionate enough that it feels more like a custom than formality.</p>
+
+  <p>Anyway, I wasn’t expecting magic to come up in the conversation.<br>
+  So the Maren aren’t just religious — they actually believe in mystical arts too.<br>
+  They really are behind the times.</p>
+
+  <p>I can’t help wondering if I’ll ever find a way back from this Maren village to Japan, where smartphones and TV exist.</p>
+
+  <p><i>“The one you’re touching now,”</i> Mother continued, <i>“was made to celebrate this child — little Giselle.”</i></p>
+
+  <p>She smiled softly and placed a hand on her rounded belly.</p>
+
+  <p>Yes — Mother was pregnant with her second child.</p>
+
+  <p>Apparently, through some kind of divination, they already knew it would be a girl.<br>
+  Sounds dubious to me, but my parents wholeheartedly believed it.<br>
+  I’m kind of curious to see their faces if it turns out wrong.</p>
+
+  <p>I moved closer to her, asked for permission, and gently placed my hand on her stomach.</p>
+
+  <p>If this baby ends up being another reincarnated soul like me…<br>
+  maybe we’ll have some great conversations about our previous lives.</p>
+
+  <div class="nav-buttons">
+    <button id="prev-btn">← Previous</button>
+    <button id="next-btn">Next →</button>
+  </div>
+
+  <script>
+    const currentUrl = window.location.pathname;
+    const match = currentUrl.match(/(\d+)$/);
+    const currentChapter = match ? parseInt(match[1]) : 3;
+    const baseUrl = currentUrl.replace(/-\d+$/, '');
+
+    function goToChapter(chapterNum) {
+      window.location.href = `${baseUrl}-${chapterNum}`;
+    }
+
+    document.getElementById('next-btn').onclick = () => goToChapter(currentChapter + 1);
+    document.getElementById('prev-btn').onclick = () => {
+      if (currentChapter > 1) goToChapter(currentChapter - 1);
+    };
+
+    document.addEventListener('keydown', (event) => {
+      if (event.key === 'ArrowRight') goToChapter(currentChapter + 1);
+      if (event.key === 'ArrowLeft' && currentChapter > 1) goToChapter(currentChapter - 1);
+    });
+  </script>
+</body>
+</html>
