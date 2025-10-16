@@ -139,4 +139,10 @@
       if (currentChapter > 1) goToChapter(currentChapter - 1);
     };
 
-    document.addEv
+    document.addEventListener('keydown', (event) => {
+      if (event.key === 'ArrowRight') goToChapter(currentChapter + 1);
+      if (event.key === 'ArrowLeft' && currentChapter > 1) goToChapter(currentChapter - 1);
+    });
+  </script>
+</body>
+</html>
